@@ -15,4 +15,4 @@ console.log('jai shree ram')
 const num = 99
 console.log(num)
 // num =100
-console.log(typeof num , )
+console.log(typeof num)
