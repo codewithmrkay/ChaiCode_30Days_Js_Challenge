@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 10</title>
+    <style>
+        *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        }
+        html,body{
+            padding-bottom: 200px;
+            font-size: 1.2rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:center;
+        gap: 1rem;
+        }
+        img{
+            width: 400px;
+        }
+        .box{
+            background:linear-gradient(0deg,blue,red);
+            background-color: blue;
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+        }
+        .parent{
+            background-color: skyblue;
+            padding: 1rem ;
+        }
+        .child{
+            margin-top: 10px;
+            padding: 3rem;
+            background-color: salmon;
+        }
+    </style>
+</head>
+<body>
+    <h1>Day 10</h1>
+    <p>Im normal</p>
+    <button class="chP">Change Para</button>
+    <img src="sing.jpg" alt="">
+    <div class="box">im the box</div>
+    <input type="text">
+    <p class="inp"></p>
+    <form action="">
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <input type="number" name="number" id="" placeholder="enter number">
+        <input type="submit" value="submit" id="submit">
+    </form>
+    <label for="cars">Choose a car:
+
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+<p class="sel"></p>
+</label>
+<ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+  <div class="parent">
+    im parent
+    <button class="add">add me baccha</button>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
